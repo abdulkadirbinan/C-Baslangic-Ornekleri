@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+int i,a,b;
+int toplam = 0;
+printf("bir sayi girin");
+scanf("%d",&a);
+printf("bir sayi daha girin");
+scanf("%d",&b);
+if(a<b)
+{
+	for (i=a;i<=b;i++)
+	toplam=toplam+i;
+	printf("iki sayi arasindaki sayilarin toplami: %d", toplam);
+	
+}
+else
+{
+	for (i=b;i<a;i++)
+	toplam=toplam+i;
+	printf("iki sayi arasindaki sayilarin toplami : %d", toplam);
+}
+
+	return 0;
+}
