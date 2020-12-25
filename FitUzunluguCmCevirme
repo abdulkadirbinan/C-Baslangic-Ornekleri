@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	double a,cm;
+	printf("bir fit uzunlugu giriniz");
+	scanf("%lf",&a);
+	cm=30.48*a;
+	printf("cm : %lf",cm);
+	
+	
+	
+	return 0;
+}
