@@ -12,6 +12,5 @@ c=((a*60)+b);
 printf("toplam dakika: %lf",c);
 
 
-
 	return 0;
 }
