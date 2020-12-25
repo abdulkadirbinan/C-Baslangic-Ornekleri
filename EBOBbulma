@@ -3,7 +3,6 @@
 
 int main(int argc, char *argv[]) {
 
-
     int n1, n2;
     
     printf("iki tam sayi girin: ");
