@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(int argc, char *argv[]) {
+	int a;
+	printf("bir sicaklik giriniz");
+	scanf("%d",&a);
+	if (a>0) {
+		printf("donma sicakliginin ustunde");
+		
+	} else {
+		printf("donma sicakliginin altinda");
+	}
+
+
+
+	return 0;
+}
