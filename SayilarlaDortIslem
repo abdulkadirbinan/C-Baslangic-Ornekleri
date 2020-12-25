@@ -25,8 +25,6 @@ void main()  {
 	printf("kalanibul %d \n " , kalanibul);
 		
 
-
-
        
 
 }
