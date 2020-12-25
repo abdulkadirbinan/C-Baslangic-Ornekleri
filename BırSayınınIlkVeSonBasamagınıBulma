@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	
+	int a,ilksayi,sonsayi;
+	printf("sayiyi giriniz");
+	scanf("%d",&a);
+	sonsayi= a % 10;
+	while(a>=10)
+	{
+		a = a/10;
+	}
+	
+	ilksayi=a;
+	printf("ilksayi = %d sonsayi = %d",ilksayi,sonsayi);
+	return 0;
+
+}
