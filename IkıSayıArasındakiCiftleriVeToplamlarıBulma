@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+int i;
+int toplam = 0;
+   for (i=1000;i<=2000;i+=2)
+   {
+   	
+   	printf("%d\n",i);
+   	toplam=toplam+i;
+   	
+   }
+   printf("toplam : %d \n",toplam);
+
+	return 0;
+}
