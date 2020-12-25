@@ -13,9 +13,6 @@ int main(int argc, char *argv[]) {
   		printf("tektir");
 	}
 	
-	
-
-
 
 	return 0;
 }
