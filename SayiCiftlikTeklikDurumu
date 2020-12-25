@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+  int a;
+    printf("bir sayi giriniz");
+    scanf("%d",&a);
+	if (a%2==0){
+		printf("cifttir");
+	}
+    	else{
+	
+  		printf("tektir");
+	}
+	
+	
+
+
+
+	return 0;
+}
