@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int sayi1;
+    int sayi2;
+    int ekok;
+    int c = 1;
+	printf("iki sayiyi da girin");
+	scanf("%d %d",&sayi1,&sayi2);
+        while (1) {
+            c++;
+            if ((c % sayi1 == 0) && (c % sayi2 == 0)) {
+                ekok = c;
+                break;
+            }
+        }
+        printf("EKOK %d", ekok);
+
+
+	return 0;
+}
