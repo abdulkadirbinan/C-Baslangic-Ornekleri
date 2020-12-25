@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+
+
+    int n1, n2;
+    
+    printf("iki tam sayi girin: ");
+    scanf("%d %d",&n1,&n2);
+
+    while(n1!=n2)
+    {
+        if(n1 > n2)
+            n1 -= n2;
+        else
+            n2 -= n1;
+    }
+    printf("EBOB = %d",n1);
+
+
+
+	return 0;
+}
