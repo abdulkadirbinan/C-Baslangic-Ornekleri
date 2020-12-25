@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int toplam = 0 ;
+	int i,c,d;
+	for (i=2;i<=100;i++)
+	{
+		d=1;
+
+	for (c=2;c<i;c++)
+	{
+	
+		if(i%c==0){
+			d=0;
+			
+		}
+	}
+	 if(d==1){
+		printf("%d\n",i);
+		toplam=toplam+i;
+}
+}
+printf("asallarin toplami : %d",toplam);
+	return 0;
+}
