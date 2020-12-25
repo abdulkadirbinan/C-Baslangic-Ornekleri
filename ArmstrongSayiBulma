@@ -27,5 +27,5 @@ int main() {
     else
         printf("%d Armstrong Sayi Degildir", sayi);
     
-	return 0;
+    return 0;
 }
