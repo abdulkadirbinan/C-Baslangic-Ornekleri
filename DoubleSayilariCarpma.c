@@ -21,6 +21,5 @@ printf( "sayi1= %lf\n sayi2= %lf\n sayi3= %lf\n toplam= %lf\n",sayi1,sayi2,sayi3
 
 
 
-
 	return 0;
 }
