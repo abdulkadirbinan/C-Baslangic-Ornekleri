@@ -7,13 +7,7 @@ int main(int argc, char *argv[]) {
 	scanf("%d",&giris);
 	for(i=1; i<=giris; i++)
 	{
-		
-	
 		printf("%d\n",i*i);
-		
-	
-		
-		
 	}
 	
 	return 0;
