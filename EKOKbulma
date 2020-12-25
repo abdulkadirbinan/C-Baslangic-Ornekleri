@@ -17,6 +17,5 @@ int main(int argc, char *argv[]) {
         }
         printf("EKOK %d", ekok);
 
-
 	return 0;
 }
