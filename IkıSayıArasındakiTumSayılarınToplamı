@@ -21,6 +21,5 @@ else
 	toplam=toplam+i;
 	printf("iki sayi arasindaki sayilarin toplami : %d", toplam);
 }
-
 	return 0;
 }
