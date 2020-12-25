@@ -13,7 +13,6 @@ int main(int argc, char *argv[]) {
 	
 	bosluk=giris-1;
 	
-
 	for(a=0;a<giris;a++){
 		
 		for(b=0;b<bosluk;b++)
