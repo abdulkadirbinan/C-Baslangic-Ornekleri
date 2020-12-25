@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     basamaksayisi=1;
     do {
         sayi=sayi/10;
-        basamaks++;
+        basamaksayisi++;
         }
         while(sayi>=10);
         printf("Basamak sayisi = %d",basamaksayisi);
