@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int i,j,giris;
+	printf("kac satir ucgen olsun");
+	scanf("%d",&giris);
+	for (i=i;i<=giris;i++){
+		for (j=1;j<=i;j++){
+			printf("*");
+		}
+		printf("\n");
+	}
+
+	return 0;
+}
