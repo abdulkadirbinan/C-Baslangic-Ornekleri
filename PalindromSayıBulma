@@ -24,6 +24,5 @@ int main(int argc, char *argv[]) {
        	printf("Sayi %d palindrome degildir ",n);
        }
    
-
 	return 0;
 }
