@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+
+int sayi = 0,faktoriyel = 1;
+printf("faktoriyeli istenen sayiyi giriniz");
+scanf("%d",&sayi);
+while(1<sayi)
+{
+	faktoriyel = faktoriyel * sayi;
+	sayi = sayi -1;
+	
+}
+printf("hesaplanan faktoriyel = %d",faktoriyel);
+
+
+
+
+
+	return 0;
+}
