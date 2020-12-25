@@ -15,8 +15,5 @@ while(1<sayi)
 printf("hesaplanan faktoriyel = %d",faktoriyel);
 
 
-
-
-
 	return 0;
 }
