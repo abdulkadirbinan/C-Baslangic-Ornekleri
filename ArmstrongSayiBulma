@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    
+    int sayi, gecici, sonuc=0, basdegeri;
+    
+    
+    printf("Sayi Giriniz: ");
+    scanf("%d", &sayi);
+    
+    
+    gecici = sayi;
+    
+    while ( gecici > 0 ){
+        
+        basdegeri = gecici % 10;
+        sonuc += basdegeri * basdegeri * basdegeri;
+        gecici /= 10;
+        
+    }
+    
+    if (sayi == sonuc)
+        printf("%d Armstrong Sayidir", sayi);
+    
+    else
+        printf("%d Armstrong Sayi Degildir", sayi);
+    
+	return 0;
+}
