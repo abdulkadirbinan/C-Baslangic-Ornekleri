@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+
+
+       //int n, k = 0, c;
+       int n = 0;
+       int k = 0;
+       int c = 0;
+       printf("Sayi Giriniz");
+       scanf("%d",&n);
+       c = n;
+       while( c != 0 )
+       {
+          k = k * 10;
+          k = k + c%10;
+          c = c/10;
+       }
+
+       if ( n == k )
+          printf("Sayi %d palindromedir ", n);
+       else{
+       	printf("Sayi %d palindrome degildir ",n);
+       }
+   
+
+	return 0;
+}
